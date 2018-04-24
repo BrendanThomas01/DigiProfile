@@ -46,6 +46,8 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Courier;
+  width: 80%;
+  position: absolute;
 }
 
 .formcontent {
@@ -55,4 +57,16 @@ body {
 .formcontent input {
   width: 60%;
   font-family: Courier;
+  margin-top: 10px;
+}
+
+.formcontent .formbutton {
+  width: 10%;
+  font-family: Courier;
+  color: #00ccff;
+  text-align: center;
+}
+
+.formcontent .formbutton input {
+  text-align: center;
 }
