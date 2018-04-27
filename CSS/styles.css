@@ -38,6 +38,10 @@ body {
 
 /*- Contact Page -*/
 
+@media query {
+
+}
+
 .form {
   text-align: center;
   margin-top: 10px;
