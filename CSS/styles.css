@@ -36,6 +36,54 @@ body {
   height: 100%;
 }
 
+/*- Projects -*/
+
+.cardcontainer {
+  perspective: 700;
+  display: inline-block;
+}
+
+.card1 {
+  color: #fff;
+  font-family: Courier;
+  background: #333;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 5%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+.card1 h1 {
+  margin: 0px;
+}
+
+.backcard a {
+  color: #fff;
+  font-family: Courier;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.frontcard, .backcard {
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-top: 0;
+  backface-visibility: hidden;
+}
+
+.backcard {
+  transform: rotateY(180deg);
+}
+
+.card1:hover {
+  transform: rotateY(180deg);
+}
+
 /*- Contact Page -*/
 
 @media query {
